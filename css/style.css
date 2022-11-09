@@ -33,3 +33,6 @@ body{
 .name{
     text-transform: uppercase;
 }
+.d_none{
+    display: none;
+}
