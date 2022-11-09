@@ -121,6 +121,6 @@ for (i = 0; i < arrIcons.length; i++) {
     container.innerHTML += `
     <div class="card_icon">
       <i class=" ${arrIcons[i].prefix+"solid"} ${arrIcons[i].prefix}${arrIcons[i].name}" style= "color:${arrIcons[i].color};"></i>
-     <div class="name"> CAT</div>
+     <div class="name">${arrIcons[i].name}</div>
     </div>`
 }
