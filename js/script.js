@@ -124,3 +124,14 @@ for (i = 0; i < arrIcons.length; i++) {
      <div class="name">${arrIcons[i].name}</div>
     </div>`
 }
+const arrAnimal = [], arrVegetable = [], arrUser = [];
+for (i = 0; i < arrIcons.length; i++){
+    if (arrIcons[i].type === "animal"){
+        arrAnimal.push(arrIcons[i])
+        
+    }else if (arrIcons[i].type === "vegetable"){
+        arrVegetable.push(arrIcons[i])
+    }else{
+        arrUser.push(arrIcons[i])
+    }
+}
