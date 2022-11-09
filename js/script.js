@@ -120,7 +120,7 @@ let icon = document.querySelector("i");
 for (i = 0; i < arrIcons.length; i++) {
     container.innerHTML += `
     <div class="card_icon">
-      <i class=" ${arrIcons[i].prefix+"solid"} ${arrIcons[i].prefix}${arrIcons[i].name}"></i>
+      <i class=" ${arrIcons[i].prefix+"solid"} ${arrIcons[i].prefix}${arrIcons[i].name}" style= "color:${arrIcons[i].color};"></i>
      <div class="name"> CAT</div>
     </div>`
 }
