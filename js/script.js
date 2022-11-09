@@ -166,7 +166,7 @@ vai.addEventListener("click", function () {
                  <div class="name">${arrVegetable[i].name}</div>
                 </div>`
         }
-    }else{
+    }else if (filtro.value == "User"){
         for (i = 0; i < arrUser.length; i++) {
             container.innerHTML += `
                 <div class="card_icon">
@@ -174,5 +174,7 @@ vai.addEventListener("click", function () {
                  <div class="name">${arrUser[i].name}</div>
                 </div>`
         }
+    }else{
+        vai.removeEventListener
     }
 });

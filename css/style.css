@@ -36,3 +36,26 @@ body{
 .d_none{
     display: none;
 }
+.start{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65, 213, 254);
+}
+.start > label{
+    margin-right: .5rem;
+}
+.filtro{
+    padding:.5rem .8rem ;
+    border-radius: .5rem;
+}
+.vai{
+    margin-left: .5rem;
+    color: white;
+    background-color: rgb(143, 139, 139);
+    padding: .5rem .8rem;
+    cursor: pointer;
+    border: none;
+    border-radius: .5rem;
+}
